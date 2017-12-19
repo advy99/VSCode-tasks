@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		 {
+			  "label": "Build cpp",
+			  "type": "shell",
+			  "command": "g++",
+			  "args": [
+					"-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"
+			  ],
+			  "group": {
+				"kind": "build",
+				"isDefault": true
+			  }
+		 },
+		 {
+			"label": "Build and Run",
+			"type": "shell",
+			"command": "g++",
+			"args": [
+				 "-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}", "&&", "${fileDirname}/${fileBasenameNoExtension}"
+			],
+
+			"group": {
+			 "kind": "build",
+			 "isDefault": true
+			}
+	  }
+	]
+}
