@@ -2,6 +2,7 @@
 Archivos de configuración, tareas, y compilaciones para Visual Studio Code
 
 Tareas realizadas hasta el momento:
+
 	-C++:
 		Compilar para realizar depuracion.
 		Compilar y ejecutar.
