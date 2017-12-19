@@ -1,5 +1,11 @@
 # VSCode-tasks
-Archivos de configuración, tareas, y compilaciones para Visual Studio Code
+Archivos de configuración, tareas, y compilaciones para Visual Studio Code.
+
+Método de uso:
+	Añadir archivos .json a la carpeta .vscode del proyecto
+	
+ATENCIÓN
+	Comprobar la etiqueta dada para las tareas y comprobar compatibilidad en los nombres de otras tareas.
 
 Tareas realizadas hasta el momento:
 
