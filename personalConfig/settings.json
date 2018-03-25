@@ -1,2 +1,15 @@
 {
-}
+
+    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontFamily": "Hack",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Roboto Mono",
+    "editor.tabSize": 3,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "editor.fontSize": 14,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "git.confirmSync": false
+ }
