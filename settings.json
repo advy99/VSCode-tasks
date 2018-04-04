@@ -1,6 +1,6 @@
 {
 
-    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.external.linuxExec": "konsole",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.fontFamily": "Hack",
     "editor.fontLigatures": true,
@@ -8,11 +8,14 @@
     "editor.tabSize": 3,
     "editor.detectIndentation": false,
     "editor.insertSpaces": false,
-	"workbench.colorTheme": "Monokai",
+	"workbench.colorTheme": "Nord",
     "editor.fontSize": 14,
     "C_Cpp.intelliSenseEngine": "Tag Parser",
 	 "git.confirmSync": false,
 	 "editor.rulers": [
 		 80
-	 ]
+	],
+	"files.associations": {
+		"ratio": "cpp"
+	}
 }
